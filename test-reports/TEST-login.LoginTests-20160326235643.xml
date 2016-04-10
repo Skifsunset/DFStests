@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="login.LoginTests-20160326235643" tests="1" time="30.484">
+	<testcase classname="login.LoginTests" name="test_login_from_Join_Now" time="30.484">
+		<error message="Message: 
+" type="TimeoutException">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/Alexey/PycharmProjects/unittest_DFS/login.py", line 73, in test_login_from_Join_Now
+    ((By.CSS_SELECTOR, ".largescreen-join")))
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[Help link is visible
+Join Now button is visible
+Logo is visible
+Promo SignUp is visible
+All 8 sections are displayed including hidden one
+Terms section is visible
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

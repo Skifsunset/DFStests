@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="intropagetests.IntroPageTests-20160326232318" tests="7" time="0.188">
+	<testcase classname="intropagetests.IntroPageTests" name="test_help_link" time="0.026"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_join_now" time="0.013"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_logo" time="0.010"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_promo_signup" time="0.008"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_sections" time="0.010"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_terms_section" time="0.008"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_footer" time="0.114">
+		<error message="a footer element is not visible" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/Alexey/PycharmProjects/unittest_DFS/intropagetests.py", line 65, in test_footer
+    , 'a footer element is not visible')
+AssertionError: a footer element is not visible
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[Help link is visible
+Join Now button is visible
+Logo is visible
+Promo SignUp is visible
+All 8 sections are displayed including hidden one
+Terms section is visible
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

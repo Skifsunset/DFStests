@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="intropagetests.IntroPageTests-20160326235643" tests="7" time="30.404">
+	<testcase classname="intropagetests.IntroPageTests" name="test_help_link" time="0.019"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_join_now" time="0.009"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_logo" time="0.007"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_promo_signup" time="0.006"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_sections" time="0.009"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_terms_section" time="0.017"/>
+	<testcase classname="intropagetests.IntroPageTests" name="test_footer" time="30.336">
+		<error message="Message: 
+" type="TimeoutException">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/Alexey/PycharmProjects/unittest_DFS/intropagetests.py", line 58, in test_footer
+    until(expected_conditions.visibility_of_element_located((By.CSS_SELECTOR, "section.footer-extras")))
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[Help link is visible
+Join Now button is visible
+Logo is visible
+Promo SignUp is visible
+All 8 sections are displayed including hidden one
+Terms section is visible
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
